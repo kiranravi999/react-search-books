@@ -1,12 +1,7 @@
+import "./App.css";
 
-import './App.css';
+import SearchBooks from "./components/SearchBooks";
 
-import SearchBooks from './components/SearchBooks'
+const App = () => <SearchBooks />;
 
-
-const App=()=>(
-    <SearchBooks/>
-)
-  
-  export default App
-
+export default App;

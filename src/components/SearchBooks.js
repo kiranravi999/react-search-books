@@ -136,7 +136,7 @@ const SearchBooks = () => {
             <img
               className="w-75 image-style"
               src="/images/internet_error_image.png"
-              alt="Books not found"
+              alt="Network Error or incorrect url"
             />
           </div>
         );
@@ -158,7 +158,7 @@ const SearchBooks = () => {
             <img
               className="w-75 image-style"
               src="/images/something_went_wrong.png"
-              alt="Books not found"
+              alt="Something went wrong please try again"
             />
           </div>
         );
@@ -187,9 +187,7 @@ const SearchBooks = () => {
      dispatch(displayBar([], false));
      if (!title){
         dispatch(setInputError("Please enter a search query"));
-     }
-    console.log(state.searchQuery);
-    // dispatch(setInputError("")); // To hide the error message of search input
+     }// dispatch(setInputError("")); // To hide the error message of search input
     if (title) {
       dispatch(onProgress()); // Dispatching  action on the loading state of response
 
@@ -198,7 +196,6 @@ const SearchBooks = () => {
           `https://openlibrary.org/search.json?title=${title}`
         );
         const books = response.data.docs;
-        console.log(books);
         const filteredBooks = books.filter((book) =>
           book.title.toLowerCase().includes(state.searchQuery.toLowerCase())
         );
@@ -210,8 +207,7 @@ const SearchBooks = () => {
           dispatch(onFailure("No results found")); //Setting the  message when no books found
         }
       } catch (error) {
-        console.log(error.message);
-
+        
         dispatch(onFailure(error.message)); // Setting the message based on failure response
       }
 

@@ -77,8 +77,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 // - Search for books by title.
 // - View search suggestions as you type.
 // - Paginated display of search results.
-//-  failure views are rendered as images if there is  error in the response 
-//-   Suggestions are displayed from the api response based on the search query entered.
+//- failure views are rendered as images if there is error in the response
+//- Suggestions are displayed from the api response based on the search query entered.
 //- When clicked on the suggestion the results are fetched.
 // By clicking enter and serach button results are fetched in the form of pagination
 
@@ -89,14 +89,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 // ## Installation
 // 1. Clone this repository:
-//    ```bash
+// `bash
 //    git clone https://github.com/your-username/react-book-search.git
-//    ```
+//    `
 // 2. Navigate to the project directory:
-//    ```bash
+// `bash
 //    cd react-book-search
-//    ```
+//    `
 // 3. Install dependencies:
-//    ```bash
+// `bash
 //    npm install
-//    ```
+//    `
