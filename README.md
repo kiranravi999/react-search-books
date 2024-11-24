@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+// # React Book Search Application
+
+// This is a React-based application to search books using the Open Library API.
+
+// ## Features
+// - Search for books by title.
+// - View search suggestions as you type.
+// - Paginated display of search results.
+//-  failure views are rendered as images if there is  error in the response 
+//-   Suggestions are displayed from the api response based on the search query entered.
+//- When clicked on the suggestion the results are fetched.
+// By clicking enter and serach button results are fetched in the form of pagination
+
+// ## Prerequisites
+// Ensure you have the following installed:
+// - [Node.js](https://nodejs.org/) (v14 or higher)
+// - npm or yarn package manager
+
+// ## Installation
+// 1. Clone this repository:
+//    ```bash
+//    git clone https://github.com/your-username/react-book-search.git
+//    ```
+// 2. Navigate to the project directory:
+//    ```bash
+//    cd react-book-search
+//    ```
+// 3. Install dependencies:
+//    ```bash
+//    npm install
+//    ```

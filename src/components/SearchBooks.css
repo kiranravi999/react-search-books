@@ -1,0 +1,30 @@
+.search-element{
+    height:40px; 
+    
+     border-radius:20px; 
+}
+
+.suggestion-bar{
+    list-style-type: none;
+    min-height: 20px;
+    max-height: 200px;
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+
+.pagination-button{
+
+border: 1px solid #ccc;
+background-color: #f8f9fa;
+color: blue;
+border-radius:50%;
+}
+
+.image-style{
+    border-radius: 20px;
+}
+
+.suggestion-style{
+    
+}
+
